@@ -1,3 +1,5 @@
+// Desafio Batalha Naval NIvel Novato em .C
+
 #include <stdio.h>
 #define linhas 10
 #define colunas 10
