@@ -1,6 +1,6 @@
 // Desafio Batalha Naval NIvel Aventureiro em .C
 
-// Bibliotecas que serão utilizadas!
+// Bibliotecas que serão utilizadas
 
 #include <stdio.h>
 #define linhas 10
