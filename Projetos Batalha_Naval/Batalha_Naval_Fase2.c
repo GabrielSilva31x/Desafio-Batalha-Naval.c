@@ -1,8 +1,9 @@
 // Desafio Batalha Naval NIvel Aventureiro em .C
 
 // Bibliotecas que serão utilizadas
-
 #include <stdio.h>
+
+// Constantes
 #define linhas 10
 #define colunas 10
 
