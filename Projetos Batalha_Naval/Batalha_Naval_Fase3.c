@@ -1,23 +1,19 @@
 // Desafio Batalha Naval NIvel Mestre em .C 
 
 // Bibliotecas que serão utilizadas!
-
 #include <stdio.h>
 
 // Definindo as linhas e colunas da tabela 10x10!
-
 #define linhas 10
 #define colunas 10
 
 // Definindo as linhas e colunas das tabelas de Habilidades!
-
 #define linha 5
 #define coluna 5
 
   int main (){
 
 // Declarando as variaveis!
-
   char letras[10] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
     int tabela[linhas][colunas] = {0};
       int cone[linha][coluna] = {0};
@@ -26,9 +22,7 @@
 
 
 // Declarando os valores dentro da matriz na inicialização!
-
 // Declarando os valores das habilidades do "Cone"!
-
 cone[2][0] = 5;
   cone[2][1] = 5;
     cone[2][2] = 5;
@@ -41,7 +35,6 @@ cone[1][1] = 5;
       cone[0][2] = 5;
 
  // Declarando os valores das habilidades da "Cruz"!
-
 cruz[0][2] = 5;
   cruz[1][2] = 5;
     cruz[2][2] = 5;
@@ -55,7 +48,6 @@ cruz[2][0] = 5;
         cruz[2][4] = 5;
 
 // Declarando os valores das habilidades do "Octaedro"!
-
 octaedro[0][2] = 5;
   octaedro[1][1] = 5;
     octaedro[1][2] = 5;
@@ -73,7 +65,6 @@ octaedro[3][1] = 5;
       octaedro[4][2] = 5;
 
 // Logica das tabelas de Habilidades 5x5 usando os Loops "for"!
-
 int linha_inicial_cone = 0;
   int coluna_inicial_cone = 0;
 
@@ -102,7 +93,6 @@ for ( int i = 0; i < linha; i++){
 }
 
 // Logica da tabela 10x10 usando os Loops "for"!
-
 printf("  \033[1;34mTABELA.BATALHA.NAVAL\033[1;0m  \n\n");
   printf("  ");
 
@@ -128,6 +118,5 @@ for ( int a = 0; a < linhas; a++ ){
 printf("\n\n");
 
 // FIM.
-
   return 0;
 }
