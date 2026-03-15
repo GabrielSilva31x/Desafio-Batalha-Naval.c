@@ -1,18 +1,20 @@
 // Desafio Batalha Naval NIvel Novato em .C
 
+// Bibliotecas
 #include <stdio.h>
+
+// Constantes
 #define linhas 10
 #define colunas 10
 
+// Inicializando
  int main (){
 
 // Declarando as variaveis!
-
    char letras[10] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
    int tabela[linhas][colunas] = {0};
    
 // Declarando os valores dentro da matriz na inicialização!
-
    tabela[2][1] = 3;
    tabela[2][2] = 3; // Navio na Horizontal!
    tabela[2][3] = 3;
@@ -22,7 +24,6 @@
    tabela[6][7] = 3;
 
 // Logica da tabela usando os Loops "for"!
-
 printf("  TABELA-BATALHA-NAVAL \n\n");
 printf("  ");
 
@@ -47,6 +48,5 @@ for ( int b = 0; b < colunas; b++ )
 }
     
   // FIM.
-
     return 0;
  }
