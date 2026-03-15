@@ -10,14 +10,11 @@
  int main (){
 
 // Declarando as variaveis!
-
    char letras[10] = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
    int tabela[linhas][colunas] = {0};
    
 // Declarando os valores dentro da matriz na inicialização!
-
 // Navio na Horizontal!
-
   tabela[2][1] = 3;
     tabela[2][2] = 3; 
       tabela[2][3] = 3;
@@ -29,7 +26,6 @@
       tabela[6][7] = 3;
 
 // Navio na Diagonal!
-
   tabela[0][8-0] = 3;
     tabela[1][7] = 3; 
       tabela[2][6] = 3;
@@ -39,7 +35,6 @@
       tabela[7][3] = 3;
 
 // Logica da tabela usando os Loops "for"!
-
 printf("  \033[1;34mTABELA.BATALHA.NAVAL\033[1;0m  \n\n");
   printf("  ");
 
@@ -65,6 +60,5 @@ for ( int a = 0; a < linhas; a++ ){
 }
     
   // FIM.
-
     return 0;
 }
